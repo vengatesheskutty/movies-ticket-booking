@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: #333333; /* Darker header background color */
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+.cta-button .button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* CTA button background color */
+    color: #333333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button .button:hover {
+    background-color: #ff9900; /* Darker button color on hover */
+}
+/* Previous CSS code for the header section remains unchanged */
+
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat; /* Replace 'hero-background.jpg' with your actual image */
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .button {
+    padding: 15px 30px;
+    background-color: #ffcc00; /* CTA button background color */
+    color: #333333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+    background-color: #ff9900; /* Darker button color on hover */
+}
+/* Previous CSS code for the header and hero sections remains unchanged */
+
+.featured-movies {
+    background-color: #1e1e1e; /* Dark background color for the featured movies section */
+    padding: 50px 0;
+}
+
+.featured-movies .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie {
+    background-color: #333333; /* Darker background color for movie boxes */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.movie h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.movie p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.movie .button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* CTA button background color */
+    color: #333333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.movie .button:hover {
+    background-color: #ff9900; /* Darker button color on hover */
+}
+/* Previous CSS code for the header, hero, and featured movies sections remains unchanged */
+
+.why-choose-us {
+    background-color: #1e1e1e; /* Dark background color for the "Why Choose Us" section */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefit {
+    width: 300px;
+    padding: 30px;
+    background-color: #333333; /* Darker background color for benefit boxes */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.benefit img {
+    width: 50px; /* Set the width of the benefit icons */
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 16px;
+}
+/* Previous CSS code for the header, hero, featured movies, and "Why Choose Us" sections remains unchanged */
+
+.how-it-works {
+    background-color: #1e1e1e; /* Dark background color for the "How It Works" section */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.how-it-works .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 250px;
+    padding: 20px;
+    background-color: #333333; /* Darker background color for step boxes */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.step img {
+    width: 60px; /* Set the width of the step icons */
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+}
+/* Previous CSS code for the header, hero, featured movies, "Why Choose Us," and "How It Works" sections remains unchanged */
+
+.testimonials {
+    background-color: #1e1e1e; /* Dark background color for the Testimonials section */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    width: 300px;
+    padding: 30px;
+    background-color: #333333; /* Darker background color for testimonial boxes */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+}
+/* Previous CSS code for the header, hero, featured movies, "Why Choose Us," "How It Works," and Testimonials sections remains unchanged */
+
+.newsletter {
+    background-color: #1e1e1e; /* Dark background color for the Newsletter Signup section */
+    color: #ffffff; /* White text color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* CTA button background color */
+    color: #333333;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #ff9900; /* Darker button color on hover */
+}
+/* Previous CSS code for the header, hero, featured movies, "Why Choose Us," "How It Works," Testimonials, and Newsletter sections remains unchanged */
+
+.footer {
+    background-color: #1e1e1e; /* Dark background color for the Footer section */
+    color: #ffffff; /* White text color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info,
+.social-links,
+.quick-links {
+    width: 30%;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+/* Previous CSS code for the header, hero, featured movies, "Why Choose Us," "How It Works," Testimonials, Newsletter, and Footer sections remains unchanged */
+
+.parallax-section {
+    background: url('background.jpg') center/cover fixed; /* Replace 'background.jpg' with your actual image */
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.parallax-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.parallax-content p {
+    font-size: 18px;
+}
